@@ -19,7 +19,7 @@ const Appointment = (props) => {
     <div className=" container m-5" style={{display:"flex", justifyContent:"space-between"}}>
       <div>
         <h2>{matched?.name}</h2>
-        <p>{matched.expertize}</p>
+        <p>{matched?.expertize}</p>
         <a className="btn btn-success" href={`tel: ${matched?.phone}`}>
           {" "}
           Call For appointment
