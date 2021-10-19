@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "img": "https://doctors.rush.edu/Custom/Photos/Hires/843.jpg" ,
+        "name": "Kurian Abraham, MD",
+        "expertize": "Pathology-Anatomic/Pathology-Clinical, Cytopathology, Pathology",
+        "Phone": "(630) 692-5025"
+    },
+    {
+        "id": 2,
+        "img": "https://doctors.rush.edu/Custom/Photos/Hires/1142.jpg" ,
+        "name": "Rana Abraham, MD",
+        "expertize": "Gastroenterology",
+        "Phone": "(312) 942-5861"
+    },
+    {
+        "id": 3,
+        "img": "https://doctors.rush.edu/Custom/Photos/Hires/18888.jpg" ,
+        "name": "Saju Abraham",
+        "expertize": "Neurologyith",
+        "Phone": "(312) 563-2030"
+
+    },
+    {
+        "id": 4,
+        "img": "https://doctors.rush.edu/Custom/Photos/Hires/1349.jpg" ,
+        "name": "Salaheldin Abusin, MD",
+        "expertize": "Interventional Cardiology, Cardiovascular Disease",
+        "Phone": "(312) 563-2875"
+    },
+    {
+        "id": 5,
+        "img": "https://doctors.rush.edu/Custom/Photos/Hires/17600.jpg" ,
+        "name": "Alicja Achimowicz, NP",
+        "expertize": "Adult-Gerontology Acute Care Nurse Practitioner",
+        "Phone": "(312) 942-8905" 
+    },
+    {
+        "id": 6,
+        "img": "https://doctors.rush.edu/Custom/Photos/Hires/18606.jpg" ,
+        "name": "Kamala haris, MD",
+        "expertize": "Female Pelvic Medicine and Reconstructive Surgery, Urology",
+        "Phone": "(630) 820-7100"
+
+    },
+    {
+        "id": 7,
+        "img": "https://doctors.rush.edu/Custom/Photos/Hires/18043.jpg" ,
+        "name": "Mitra Afshari, MD, MPH",
+        "expertize": "Neurology",
+        "Phone": "(312) 942-5020"
+    },
+    {
+        "id": 8,
+        "img": "https://doctors.rush.edu/Custom/Photos/Hires/17536.jpg" ,
+        "name": "Mr rebeka, NP",
+        "expertize": "Heart Surgery Care",
+        "Phone": "(312) 563-2762"
+    },
+    {
+        "id": 9,
+        "img": "https://doctors.rush.edu/Custom/Photos/Hires/17463.jpg",
+        "name": "Sarah Adelstein, MD",
+        "expertize": "Urology Services",
+        "Phone": "(312) 563-3447"
+    }
+]

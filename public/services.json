@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "24/7 active pharmacy",
+        "Description": "We have our own pharmacy which is open for 24/7, so Dear patients you don't need to rush for medicine in unwanted time.",
+        "logo": "https://us.123rf.com/450wm/butenkow/butenkow1510/butenkow151000044/46533344-vector-logo-for-pharmacies-on-a-green-background.jpg?ver=6",
+        "contact": "01716000005"
+    },
+    {
+        "id": 2,
+        "title": "Blood Bank",
+        "Description": "We are always ready for emergency Blood supply when you will need our support. We have a vast Blood bank in our hospital.",
+        "logo": "https://image.freepik.com/free-vector/blood-donation-logo_23-2147506524.jpg",
+        "contact": "01716000230"
+    },
+    {
+        "id": 3,
+        "title": "Emergency Ambulance",
+        "Description": "Our ambulance support is quick and first. You have to just make one call and we will reach on your door.",
+        "logo": "https://media.istockphoto.com/vectors/ambulance-flat-icon-medicine-and-healthcare-transport-sign-vector-a-vector-id843297940?k=20&m=843297940&s=612x612&w=0&h=Dmzm4jWmVh5Yc8k7zQYUjVLJo7G8bAFStp_6yAGo9IE=",
+        "contact": "01716045909"
+    },
+    {
+        "id": 4,
+        "title": "24/7 active Diagonistic Center",
+        "Description": "Patients can go for any tests at any time as our diagonostic support is als=ways with you 24/7.",
+        "logo": "https://i.ytimg.com/vi/F-PLFP3JZMU/maxresdefault.jpg",
+        "contact": "01716000099"
+    },
+    {
+        "id": 5,
+        "title": "available 24/7 Emergency Dept",
+        "Description": "Our emergency dept is always ready with our super enthistic Stuffs. So you don't have to worry about any serious situation.",
+        "logo": "https://cdn1.vectorstock.com/i/1000x1000/25/05/24hr-emergency-service-logo-vector-18862505.jpg",
+        "contact": "01716579900"
+    },
+    {
+        "id": 6,
+        "title": "Emergency Online support and Consultancy",
+        "Description": "We are also active in online. So that if in case you cna't reach to.",
+        "logo": "https://cdn2.iconfinder.com/data/icons/medical-5-5/128/medical_call-hospital-512.png",
+        "contact": "01822334457"
+    }
+]

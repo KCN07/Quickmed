@@ -1,0 +1,83 @@
+import React from "react";
+import { useHistory, useLocation } from "react-router";
+import useAuth from "../../../hooks/useAuth";
+import useFirebase from "../../../hooks/useFirebase";
+import './Login.css'
+
+const Login = () => {
+  const {user,
+    signInUsingGoogle,
+    logOut,
+    handleRegistration,
+    isLogin,
+    error,
+    handleNameChange,
+    handleEmailChange,
+    handlePasswordChange,
+    handleResetPassword,
+    toggleLogin} = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home';
+
+    const handleGoogleLogin = () => {
+      signInUsingGoogle()
+          .then(result => {
+              history.push(redirect_uri);
+          })
+  }
+  return (
+    <div className="m-5 " >
+      <form onSubmit={handleRegistration}  className="p-5 shadow" style={{border: '1px solid blue'}}>
+        <h3 className="text-primary mb-5">Please {isLogin ? 'Login' : 'Register'}</h3>
+        {!isLogin && <div className="row mb-3">
+          <label htmlFor="inputName" className="col-sm-2 col-form-label">Name</label>
+          <div className="col-sm-10">
+            <input type="text" onBlur={handleNameChange} className="form-control" id="inputName" placeholder="Your Name" required />
+          </div>
+        </div>}
+        <div className="row mb-3">
+          <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Email</label>
+          <div className="col-sm-10">
+            <input onBlur={handleEmailChange} type="email" className="form-control" id="inputEmail3" required placeholder="Your email" />
+          </div>
+        </div>
+        <div className="row mb-3">
+          <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
+          <div className="col-sm-10">
+            <input type="password" onBlur={handlePasswordChange} className="form-control" id="inputPassword3" required placeholder="type the password"/>
+          </div>
+        </div>
+        <div className="row mb-3">
+          <div className="col-sm-10 offset-sm-2">
+            <div className="form-check">
+              <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
+              <label className="form-check-label" htmlFor="gridCheck1">
+                Already Registered?
+              </label>
+            </div>
+          </div>
+        </div>
+        <div className="row mb-3 text-danger">{error}</div>
+        <button type="submit" className="btn btn-primary">
+          {isLogin ? 'Login' : 'Register'}
+        </button>
+        <button type="button" onClick={handleResetPassword} className="btn btn-secondary btn-sm ms-3">Reset Password</button>
+
+      </form>
+
+      <br />
+      <br />
+      <br />
+      <div>--------------------------------</div>
+      <br />
+      <br />
+      <br />
+      <button onClick={handleGoogleLogin} className="btn btn-warning">
+        Google Sign In
+      </button>
+    </div>
+  );
+};
+
+export default Login;
